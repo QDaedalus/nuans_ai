@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Klinik Psikolog Blog Makalesi.">
+    <title>Makale | Klinik Psikolog</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Uzm. Psikolog</span>
+                <span class="logo-dot">.</span>
+            </a>
+
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html#hero" class="nav-link">Ana Sayfa</a></li>
+                    <li><a href="index.html#about" class="nav-link">Hakkımda</a></li>
+                    <li><a href="index.html#services" class="nav-link">Hizmetler</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="index.html#contact" class="nav-link btn-primary">İletişime Geç</a></li>
+                </ul>
+            </nav>
+
+            <button class="menu-toggle" aria-label="Menüyü Aç">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Article Header -->
+        <section class="article-header section">
+            <div class="container article-container fade-in-up visible">
+                <a href="blog.html" class="back-link"><i class="ph ph-arrow-left"></i> Blog'a Dön</a>
+                <div id="article-header-content">
+                    <!-- Dynamic header content will be inserted here -->
+                    <div class="skeleton-loader" style="height: 200px; width: 100%; margin-top: 2rem;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Article Body -->
+        <section class="article-body pb-xl">
+            <div class="container article-container">
+                <div id="article-main-content" class="article-content">
+                    <!-- Dynamic body content will be inserted here -->
+                    <div class="skeleton-loader" style="height: 400px; width: 100%;"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">Uzm. Psikolog</span>
+                    <span class="logo-dot">.</span>
+                </a>
+                <p>Çocuklarınızın duygusal ve zihinsel gelişiminde yanınızdayız.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="ph ph-facebook-logo"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links-group">
+                <h4>Hızlı Menü</h4>
+                <ul>
+                    <li><a href="index.html#hero">Ana Sayfa</a></li>
+                    <li><a href="index.html#about">Hakkımda</a></li>
+                    <li><a href="index.html#services">Hizmetler</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="index.html#contact">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Uzman Klinik Psikolog. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Actions -->
+    <div class="floating-actions">
+        <a href="https://api.whatsapp.com/send?phone=905389313366" target="_blank" class="float-btn whatsapp"
+            title="WhatsApp">
+            <i class="ph ph-whatsapp-logo"></i>
+        </a>
+        <a href="tel:05389313366" class="float-btn phone" title="Ara">
+            <i class="ph ph-phone"></i>
+        </a>
+        <a href="mailto:example@nuanspsikolojikdanismanlik@gmail.com" class="float-btn mail" title="Email">
+            <i class="ph ph-envelope-simple"></i>
+        </a>
+        <a href="https://www.instagram.com/nuans.psikoloji/" target="_blank" class="float-btn insta" title="Instagram">
+            <i class="ph ph-instagram-logo"></i>
+        </a>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="blog-data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
